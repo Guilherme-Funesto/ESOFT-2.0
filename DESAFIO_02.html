@@ -15,13 +15,29 @@
             font-size: 36px;
         }
 
+        #menu {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        #menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+        }
+
+        #menu a:hover {
+            text-decoration: underline;
+        }
+
         #conteudo img {
             display: block;
             margin: 10px auto;
             width: 200px;
         }
 
-        .lista, .lista-nao-ordenada {
+        .secao {
             margin-top: 20px;
         }
 
@@ -39,18 +55,26 @@
         <h1>Site do Rock 🔥🔥</h1>
     </div>
 
+    <div id="menu">
+        <a href="#topo">Topo</a>
+        <a href="#conteudo">Conteúdo</a>
+        <a href="#rodape">Rodapé</a>
+    </div>
+
     <div id="conteudo">
-        <p>Bem-vindo ao site mais Rock de todos os tempos</p>
+        <div class="secao">
+            <p>Bem-vindo ao site mais Rock de todos os tempos</p>
 
-        <p>
-            Lorem ipsum dolor sit amet <b>consectetur adipiscing elit</b>.<br>
-            Sed do eiusmod <i>tempor incididunt</i> ut labore et dolore magna aliqua.<br>
-            Ut enim ad minim veniam <u>quis nostrud exercitation</u>.
-        </p>
+            <p>
+                Lorem ipsum dolor sit amet <b>consectetur adipiscing elit</b>.<br>
+                Sed do eiusmod <i>tempor incididunt</i> ut labore et dolore magna aliqua.<br>
+                Ut enim ad minim veniam <u>quis nostrud exercitation</u>.
+            </p>
 
-        <img src="https://tse1.mm.bing.net/th/id/OIP._2w-Ccp4LD-6f5lCvY7aJAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagem de exemplo">
+            <img src="https://tse1.mm.bing.net/th/id/OIP._2w-Ccp4LD-6f5lCvY7aJAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagem de exemplo">
+        </div>
 
-        <div class="lista">
+        <div class="secao">
             <h2>Como começar a gostar do rock?</h2>
             <ol>
                 <li>Ser um vampiro</li>
@@ -59,7 +83,7 @@
             </ol>
         </div>
 
-        <div class="lista-nao-ordenada">
+        <div class="secao">
             <h2>Coisas importantes no Rock</h2>
             <ul>
                 <li>Camisetas de banda</li>
